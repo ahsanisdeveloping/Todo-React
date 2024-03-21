@@ -12,7 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.listItem{
+  display: inline-block;
+  margin: 10px;
+}
+.listItem:hover{
+  cursor: pointer;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.checked{
+  text-decoration: line-through;
+  color: red;
 }
